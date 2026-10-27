@@ -1,5 +1,7 @@
 # The Vanessa Bakery · propuesta de web
 
+**[Ver la demo](https://rubenj0806.github.io/vanessa-bakery/)**
+
 Propuesta de diseño para **The Vanessa Bakery**, la tienda de galletas estilo New York de la Estrecha de San Andrés (A Coruña). La hice para enseñársela a la dueña y que valore encargar una web.
 
 > **No es la web oficial.** Es una demo sin autorización de la tienda. Los datos sacados de prensa o de directorios están marcados, y no uso ninguna foto suya ni de terceros: las galletas son ilustraciones hechas para la demo.
@@ -57,7 +59,7 @@ npm run lint      # revisa el código con oxlint
 
 ## Publicación
 
-`.github/workflows/deploy.yml` pasa los tests, compila y publica en GitHub Pages en cada push a `main`. Vite usa `base: './'` para que funcione en una subcarpeta. **No está publicada**: antes habría que hablar con la tienda.
+`.github/workflows/deploy.yml` pasa los tests, compila y publica en GitHub Pages en cada push a `main`. Vite usa `base: './'` para que funcione en una subcarpeta. Está publicada como demo en https://rubenj0806.github.io/vanessa-bakery/ , con `noindex` para que no salga en buscadores. No forma parte del portafolio.
 
 ## Más documentación
 
