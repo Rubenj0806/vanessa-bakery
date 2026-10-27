@@ -42,9 +42,12 @@ Contrastes medidos que pasan:
 | Rosa sobre chocolate | 10,23:1 |
 | Blanco sobre granate | 8,49:1 |
 
+## En un iPhone real (27/10/2026)
+
+Ruben abrió la versión publicada (https://rubenj0806.github.io/vanessa-bakery/) en su iPhone y funciona.
+
 ## Lo que NO he podido comprobar
 
-- **Safari de iOS en un iPhone real.** Solo he probado con la emulación de móvil del navegador integrado, que usa Chromium. Revisé a mano el CSS que suele fallar en Safari (fuente variable, `mask`, `backdrop-filter`, campos de 16 px), pero hay que mirarlo en tu iPhone antes de enseñarlo.
 - **«Copiar y abrir chat» en un móvil real.** No sé si `ig.me` abre la app de Instagram o la web en cada móvil. Tampoco sé si Safari permite abrir la pestaña después de copiar: el código lo intenta en el mismo toque.
 - **Lector de pantalla real** (VoiceOver o NVDA). Revisé la semántica y el foco, pero no lo he escuchado.
 - **Lighthouse.** No lo he pasado, así que no doy puntuación.
